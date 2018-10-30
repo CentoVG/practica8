@@ -4,9 +4,14 @@
    <meta charset="UTF-8">
    <title>La Carta</title>
    <style>
-
+       
        body{
             background-color: #F5E3CF;
+        }
+
+        h2{
+            font-weight: bold;
+            color: #9f3711;
         }
 
        h1#titulo{
@@ -17,20 +22,13 @@
             text-align: center;
         }
 
-        body{
-            background-color: #F5E3CF;
-        }
-
-        p.parrafo{
+        p{
             color:#B34700;
             font-size: 20px;
         }
 
-        footer{
-            font-style: oblique;
-            font-size: 20px;
-            position: absolute;
-            bottom: 0%;
+        p.negro{
+            color: black;
         }
 
         .volver{
@@ -38,7 +36,6 @@
             font-size: 20px;
             color:#B34700;
         }
-
 
    </style>
 </head>
@@ -48,16 +45,49 @@
    </header>
    <main>
        <article>
-           <p class="parrafo">EL "PANIER" CON UN SURTIDO DE BOLLERIA, MANTEQUILLA Y MERMELADA 3,80 €</p><hr>           
-           <p class="parrafo">TARTINES A LA FRANCESA; PAN FRESCO CON MANTEQUILLA Y MERMELADA 2 €</p><hr>
-           <p class="parrafo">NAPOLITANA 1,20 €</p><hr>
-           <p class="parrafo">CROISSANT DE MANTEQUILLA 1 €</p><hr>
-           <p class="volver"><a href="index.html">VOLVER</a></p>
+           <h2>Desayunos tradicionales</h2>
+           <ol>
+               <li><p>Churros. ¡Recién hechos! Y con azúcar glass por encima.</p></li>
+               <li><p>Tostada de pan integral con pavo braseado, queso cremoso y tomate</p></li>
+               <li><p>Bollería francesa de mantequilla</p></li>
+               <li><p>Croissant o barrita a la plancha</p></li>
+           </ol>
+           <h2>Desayunos especiales</h2>
+           <ul>
+                <li><p>Croque monsieur.</p></li>
+                <li><p>Mollete con tomate y jamón ibérico de bellota</p></li>
+                <li><p>Nuestras clásicas tortitas con nata y sirope</p></li>
+                <li><p>Tortilla con salchicha, salmón o beicon, acompañados de patatas</p></li>
+            </ul>
+           <hr>
        </article>
+       <article>
+            <h2>Meriendas</h2>
+            <ul>
+                <li><p class="negro">Desde las 17:00</p></li>
+                <ul>
+                    <li><p>Tortilla española y pan con tomate</p></li>
+                    <li><p>Croissant mixto gratinado con bechamel</p></li>
+                </ul>
+            </ul>
+            <ol>
+                <li><p class="negro">Desde las 15:00</p></li>
+                <li><p class="negro">Helados</p></li>
+                <ol>
+                    <li><p>BATIDOS DE HELADOS</p></li>
+                    <li><p>BOLA DE HELADO</p></li>
+                    <li><p>Sabores:Stracciatella, Turrón, Chocolate, Vaenilla</p></li>
+                </ol>
+            </ol>
+        </article>
    </main>
    <footer>
-        <p>Autor: Vicente Palacios Barrera<br>correo: vicentepalacios98@gmail.com</p>
-        <p>Última modificación: 17/10/2018</p>
-   </footer>
+       <hr>
+       <address>
+        Autor: Vicente Palacios Barrera<br>
+        correo: vicentepalacios98@gmail.com
+       </address>
+       <p class="negro">Última modificación: 28 de noviembre de 2017</p>
+</footer>
 </body>
 </html>
